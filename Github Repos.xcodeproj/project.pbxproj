@@ -13,6 +13,7 @@
 		CAB321ED20922A39008BA8A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAB321EC20922A39008BA8A0 /* Assets.xcassets */; };
 		CAB321F020922A39008BA8A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAB321EE20922A39008BA8A0 /* LaunchScreen.storyboard */; };
 		CAB321F320922A39008BA8A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB321F220922A39008BA8A0 /* main.m */; };
+		CAB321FB20922C3F008BA8A0 /* Repo.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB321FA20922C3F008BA8A0 /* Repo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		CAB321EF20922A39008BA8A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CAB321F120922A39008BA8A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CAB321F220922A39008BA8A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CAB321F920922C3F008BA8A0 /* Repo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Repo.h; sourceTree = "<group>"; };
+		CAB321FA20922C3F008BA8A0 /* Repo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Repo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				CAB321EE20922A39008BA8A0 /* LaunchScreen.storyboard */,
 				CAB321F120922A39008BA8A0 /* Info.plist */,
 				CAB321F220922A39008BA8A0 /* main.m */,
+				CAB321F920922C3F008BA8A0 /* Repo.h */,
+				CAB321FA20922C3F008BA8A0 /* Repo.m */,
 			);
 			path = "Github Repos";
 			sourceTree = "<group>";
@@ -145,6 +150,7 @@
 				CAB321E820922A39008BA8A0 /* ViewController.m in Sources */,
 				CAB321F320922A39008BA8A0 /* main.m in Sources */,
 				CAB321E520922A39008BA8A0 /* AppDelegate.m in Sources */,
+				CAB321FB20922C3F008BA8A0 /* Repo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
